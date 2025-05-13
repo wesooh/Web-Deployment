@@ -33,13 +33,13 @@ You can now open the files (index.html, about.html, contact.html) in your prefer
 Open the project in a browser:
 Simply open any of the HTML files in a browser to view the website locally.
 
-Deployment
+DEPLOYMENT
 The website is deployed on GitHub Pages (or Netlify/Vercel, depending on your choice). You can view the live site at the provided URL.
 
-License
+LICENSE
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+ACKNOWLEDGEMENTS
 Font Awesome for providing icons.
 
 VS Code for being the code editor of choice.
