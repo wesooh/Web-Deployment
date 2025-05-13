@@ -26,3 +26,24 @@ Vibrant Blog is a responsive, multi-page website built with HTML5, CSS3, and Jav
 1. **Clone this repository**:
    ```bash
    git clone https://github.com/wesooh/vibrant-blog.git
+
+   Open the project in your text editor:
+You can now open the files (index.html, about.html, contact.html) in your preferred editor to make edits or customize the project.
+
+Open the project in a browser:
+Simply open any of the HTML files in a browser to view the website locally.
+
+Deployment
+The website is deployed on GitHub Pages (or Netlify/Vercel, depending on your choice). You can view the live site at the provided URL.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+Font Awesome for providing icons.
+
+VS Code for being the code editor of choice.
+
+GitHub Pages for providing an easy deployment platform.
+
+Netlify and Vercel as other possible deployment options.
