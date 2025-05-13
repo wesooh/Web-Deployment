@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vibrant Blog</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Vibrant Blog</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- HOME SECTION -->
+    <section id="home">
+      <section class="featured-post">
+        <article>
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Featured post image" />
+          <div class="post-content">
+            <h2>Featured Post: The Future of Web Development</h2>
+            <p class="post-meta">Posted on <time datetime="2023-05-15">May 15, 2023</time> by <span>Admin</span></p>
+            <p>Exploring the latest trends and technologies shaping the future of web development...</p>
+            <a href="posts/post1.html" class="read-more">Read More</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="recent-posts">
+        <h2>Recent Posts</h2>
+        <div class="posts-grid">
+          <article class="post-card">
+            <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Post 1 image" />
+            <h3>Getting Started with React</h3>
+            <p class="post-meta">Posted on <time datetime="2023-05-10">May 10, 2023</time></p>
+            <p>A beginner's guide to React framework...</p>
+            <a href="posts/post1.html" class="read-more">Read More</a>
+          </article>
+
+          <article class="post-card">
+            <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Post 2 image" />
+            <h3>CSS Grid vs Flexbox</h3>
+            <p class="post-meta">Posted on <time datetime="2023-05-05">May 5, 2023</time></p>
+            <p>When to use each layout system in modern CSS...</p>
+            <a href="posts/post2.html" class="read-more">Read More</a>
+          </article>
+
+          <article class="post-card">
+            <img src="https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Post 3 image" />
+            <h3>JavaScript ES6 Features</h3>
+            <p class="post-meta">Posted on <time datetime="2023-04-28">April 28, 2023</time></p>
+            <p>Essential ES6 features every developer should know...</p>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form id="newsletter-form">
+          <input type="email" placeholder="Your email address" required />
+          <button type="submit">Subscribe</button>
+        </form>
+        <p id="form-message"></p>
+      </section>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section">
+      <h2>About Vibrant Blog</h2>
+      <p>Welcome to Vibrant Blog, your go-to source for the latest in technology, web development, and design trends.</p>
+      <div class="about-content">
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Our team" />
+        <div class="about-text">
+          <h3>Our Story</h3>
+          <p>Founded in 2020, Vibrant Blog started as a small passion project by a group of web developers who wanted to share their knowledge and experiences. Today, we've grown into a thriving community of tech enthusiasts, writers, and learners.</p>
+
+          <h3>Our Mission</h3>
+          <p>We aim to make complex technical concepts accessible to everyone, from beginners to experienced professionals. Our team of writers works hard to create content that's informative, engaging, and up-to-date with the latest industry standards.</p>
+        </div>
+      </div>
+
+      <section class="team-section">
+        <h2>Meet Our Team</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80" alt="Team member 1" />
+            <h3>Sarah Johnson</h3>
+            <p>Editor-in-Chief</p>
+          </div>
+          <div class="team-member">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Team member 2" />
+            <h3>Michael Chen</h3>
+            <p>Senior Developer</p>
+          </div>
+          <div class="team-member">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80" alt="Team member 3" />
+            <h3>Emily Rodriguez</h3>
+            <p>Content Writer</p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <p>Have questions or feedback? We'd love to hear from you!</p>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Silicon Valley, CA 94025</p>
+          <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+          <p><i class="fas fa-envelope"></i> contact@vibrantblog.com</p>
+          <div class="contact-hours">
+            <h4>Working Hours</h4>
+            <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+            <p>Saturday - Sunday: Closed</p>
+          </div>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Send Message</button>
+          <p id="contact-status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Vibrant Blog. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
